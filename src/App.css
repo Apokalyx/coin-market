@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-image: url(/img/bck-ground.png);
+  background-repeat: no-repeat;
+  color: #fff;
+  background-color: #111;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  padding: 10px;
+  background-color: #262626;
+}
+
+.container {
+  display: flex;
+  
+}
+
+.result-box {
+  margin: auto;
+  background-color: rgb(56, 56, 56);
+  opacity: 0.8;
+  border-radius: 15px;
+  width: 1000px;
+
+}
+
+.result {
+  text-transform: capitalize;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: rgb(18, 46, 100);
+  border-radius: 15px;
+  width: 900px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.result:hover {
+
+  background-color: rgb(10, 30, 66);
+
+}
+
+
+img {
+  width: 50px;
+}
